@@ -1,0 +1,26 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="stroke-faq"
+  style="fill: none;stroke: #2c323f;"
+  viewBox="0 0 18 18"
+  fill="none"
+>
+        <path
+    d="M6.75 16.5H5.25C2.25 16.5 1.5 15.75 1.5 12.75V5.25002C1.5 2.25002 2.25 1.50002 5.25 1.50002H6.375C7.5 1.50002 7.74752 1.83002 8.17502 2.40002L9.30002 3.90002C9.58502 4.27502 9.75 4.50002 10.5 4.50002H12.75C15.75 4.50002 16.5 5.25002 16.5 8.25002V9.75002"
+    stroke-opacity="0.8"
+    stroke-width="1.5"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+        <g opacity="0.4">
+        <path
+      d="M10.3199 13.74C8.55742 13.8675 8.55742 16.4175 10.3199 16.545H14.4899C14.9924 16.545 15.4874 16.3575 15.8549 16.02C17.0924 14.94 16.4324 12.78 14.8049 12.5775C14.2199 9.06 9.13494 10.395 10.3349 13.7475"
+      stroke-opacity="0.8"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+        </g>
+    </svg>

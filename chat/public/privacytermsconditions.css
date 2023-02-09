@@ -1,0 +1,21 @@
+* {float: left;width: 100%;box-sizing: border-box;}
+body {float: left;width: 100%;box-sizing: border-box;overflow: hidden;position: relative;font-family: "Inter Regular", "TwemojiMozilla-Regular";letter-spacing: 0.3px;}
+.wrapper {float: left;width: 100%;overflow: hidden;}
+
+.login_qr_new { display:flex; flex-wrap: wrap; background: #D3D5E2 0% 0%; height: 100vh; user-select: none; } 
+.login_qr_new .main-container{ padding-top: 4rem; } 
+.login_qr_new .login_card {scrollbar-width: thin; scrollbar-color: darkgrey;caret-color: #014087;background: #fff 0 0 no-repeat padding-box;border: 0!important;border-radius: 0;box-shadow: 0 3px 91px #00000029;height: 100%;position: relative;overflow: auto;padding: 20px 25px;}
+.privcyplicycontainr {height: 100%;}
+.headprvcypolicy {float: left;width: 100%;text-align: center;font-weight: 700;margin: 0 0 25px;font-size: 33px;}
+.termsconditonwrps {float: left;width: 100%;margin: 0 0px 15px;}
+.termsconditonwrps h4 {float: left;width: 100%;font-size: 19px;font-weight: 700;letter-spacing: 0.6px;}
+.termsconditonwrps p {float: left;width: 100%;}
+.login_qr_new .login_card::-webkit-scrollbar { width: 5px; } 
+.login_qr_new .login_card::-webkit-scrollbar-track { box-shadow: none; } 
+.login_qr_new .login_card::-webkit-scrollbar-thumb { background-color: darkgrey; border-radius: 10px; } 
+
+@media only screen and (max-width: 540px) {
+    .headprvcypolicy {font-size: 24px;}
+    .termsconditonwrps h4 {font-size: 17px;}
+    .termsconditonwrps p {font-size: 13px;text-align: justify;}
+}

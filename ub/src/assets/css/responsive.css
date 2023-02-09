@@ -1,0 +1,7 @@
+@media only screen and (max-width: 1024px){
+    /* Side Nav */
+    .page-wrapper.compact-wrapper .page-body-wrapper .sidebar-wrapper{
+        top: 0px;
+        margin: 0px!important;
+    }
+}

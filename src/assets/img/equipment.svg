@@ -1,0 +1,31 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="stroke-faq"
+  style="fill: none;stroke: #2c323f;"
+  viewBox="0 0 17 17"
+  fill="none"
+>
+        <path
+    d="M6.37508 15.5833H10.6251C14.1667 15.5833 15.5834 14.1666 15.5834 10.625V6.37496C15.5834 2.83329 14.1667 1.41663 10.6251 1.41663H6.37508C2.83341 1.41663 1.41675 2.83329 1.41675 6.37496V10.625C1.41675 14.1666 2.83341 15.5833 6.37508 15.5833Z"
+    stroke-opacity="0.8"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+        <path
+    opacity="0.4"
+    d="M11.1562 6.375H5.84375"
+    stroke-opacity="0.8"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+        <path
+    opacity="0.4"
+    d="M11.1562 10.625H5.84375"
+    stroke-opacity="0.8"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+    </svg>

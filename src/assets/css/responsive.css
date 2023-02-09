@@ -1,0 +1,68 @@
+.tab-view{display: none;}
+/*--------------------------------------------*/
+/* Mini Laptop with All Tab Devices (1024px) View*/
+/*--------------------------------------------*/
+@media all and (max-width: 1024px){
+    .page-auth{--font-2rem:1.5rem}
+    .page-auth .page-auth__center{height: 100%;padding: 20px 15px 20px;}
+    .auth-card.card{width: 100%;}
+    .dashboard-contents .card .card-body .title{font-size: 16px;font-weight: 700;}
+    .sidebar-wrapper .sidebar__menu-group ul.sidebar_nav{margin: 10px 0 0;}
+    .sidebar-wrapper .logo-wrapper {padding: 30px 10px 20px 30px;text-align: left;position: relative;display: flex;justify-content: space-between;align-items: center;}
+    .navbar{padding-left: 15px;padding-right: 15px;}
+    .sidebar-wrapper{z-index: 9;}
+    .navbar .navbar-brand {display: none;}
+    .navbar .navbar-left .logo-area{padding: 0px;}
+    .sidebar-wrapper .navbar-brand{width: auto;margin: 0px;font-size: var(--font-1-5rem);}
+    .sidebar-wrapper .back-btn{height: 30px;width: 30px;display: inline-flex;align-items: center;justify-content: center;cursor: pointer;}
+    .sidebar-wrapper .sidebar{
+        box-shadow: 73px 0px 138px 35px rgb(0 0 0 / 6%);
+    }
+    .dashboard-contents.expanded{padding-left: 0px;padding-right: 0px;}
+    .card .card-header{flex-wrap: wrap;}
+    #react-media-library-modal.modal-dialog{max-width: 95%;}
+    body{font-size: 15px;}
+    /* View SVG */
+    .body-content .floor-sidebar{width: 100%; visibility: hidden; transition: var(--transition);}
+    .body-content .floorplan{width: 100%; transition: var(--transition);}
+    .tab-view{display: flex;}
+    .body-content .floor-sidebar.show{background-color: white;transition: var(--transition);border-left: 0;border-top: 1px solid #CCC;bottom: 0 !important;box-shadow: 0 -5px 4px -2px rgb(0 0 0 / 40%) !important;left: 0;overflow: scroll;position: absolute;right: auto;visibility: visible;width: 100%;height: 50vh;}
+    .floor-sidebar .nav-tabs{padding: 5px 5px;width: 100%;}
+    .login .auth-card{padding: 0.5rem 0 .6rem;width: auto;}
+}
+/*--------------------------------------------*/
+/* Mini Tab with All Mobile Devices (800px) View*/
+/*--------------------------------------------*/
+@media all and (max-width: 800px){
+    .mediacard{min-height: 200px;}
+    .media-list-grid{grid-template-columns: repeat(3, 33.33%);}
+    .mediacard .card-body span span{font-size: 8px;}
+    .mediacard .card-body .card-title span{font-size: 15px;}
+}
+/*--------------------------------------------*/
+/* Mini Tab with All Mobile Devices (500px) View*/
+/*--------------------------------------------*/
+@media all and (max-width: 500px) {
+    .media-list-grid{grid-template-columns: repeat(2, 50%);}
+    body{
+        font-size: 13px!important;
+        --bs-body-font-size: 0.9rem!important;
+    }
+    .form-label{font-size: var(--bs-body-font-size);}
+    .modal-title, .card .card-header .title{font-size: 16px;}
+    .button.btn-sm{height: 2.0227rem;padding: 0 1rem;}
+    .btn-icon.btn-sm {padding: 0.1rem!important;
+        width: 35px!important;
+        height: 35px!important;
+    }
+    h4{font-size: 18px;}
+    .breadcrumb li{font-size: 12px;}
+    .common_icon{height: 16px;width: 16px;}
+    .btn-icon{height: 35px;width: 35px;}
+    body{font-size: 14px;}
+}
+/*--------------------------------------------*/
+/* Mini Tab with All Mobile Devices (480px) View*/
+/*--------------------------------------------*/
+@media all and (max-width: 480px){
+}
